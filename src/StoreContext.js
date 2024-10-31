@@ -8,6 +8,7 @@ export const StoreProvider = ({ children }) => {
     const [standplaatsen] = useState([
         /*
         // Dit zijn de werkelijke en actuele tijden
+        */
         { id: 1, naam: 'Nijmegen', kilometers: 7, reistijd: 20 }, // reistijd is 20
         { id: 2, naam: 'Venlo', kilometers: 60, reistijd: 55 }, // reistijd is 55
         { id: 3, naam: 'Roermond', kilometers: 87, reistijd: 60 }, // reistijd is 60
@@ -17,15 +18,15 @@ export const StoreProvider = ({ children }) => {
         { id: 7, naam: 'Tiel', kilometers: 39, reistijd: 35 }, // reistijd is 35
         { id: 8, naam: 'Arnhem', kilometers: 36, reistijd: 40 }, // reistijd is 40
         { id: 9, naam: 'Winterswijk', kilometers: 92, reistijd: 80 }, // reistijd is 80
-        { id: 10, naam: 'Zutphen', kilometers: 68, reistijd: 55 }, // reistijd is 55
-        { id: 11, naam: 'Goor', kilometers: 104, reistijd: 65 }, // reistijd is 65
+        { id: 10, naam: 'Zutphen', kilometers: 68, reistijd: 45 }, // reistijd is 55
+        { id: 11, naam: 'Goor', kilometers: 104, reistijd: 45 }, // reistijd is 65
         { id: 12, naam: 'Hengelo', kilometers: 121, reistijd: 75 }, // reistijd is 75
         { id: 13, naam: 'Zwolle', kilometers: 102, reistijd: 62 }, // reistijd is 62
         { id: 14, naam: 'Emmen', kilometers: 178, reistijd: 116 }, // reistijd is 116
         { id: 15, naam: 'Marienberg', kilometers: 135, reistijd: 93 }, // reistijd is 93
         { id: 16, naam: 'Groningen', kilometers: 200, reistijd: 120 }, // reistijd is 120
         { id: 17, naam: 'Leeuwarden', kilometers: 193, reistijd: 115 }, // reistijd is 115
-            */
+          /*  
         // Dit zijn de tijden en afstanden tot 31-12-2024
         { id: 1, naam: 'Nijmegen', kilometers: 0, reistijd: 0 }, // reistijd is 20
         { id: 2, naam: 'Venlo', kilometers: 0, reistijd: 0 }, // reistijd is 55
@@ -44,7 +45,7 @@ export const StoreProvider = ({ children }) => {
         { id: 15, naam: 'Marienberg', kilometers: 0, reistijd: 0 }, // reistijd is 93
         { id: 16, naam: 'Groningen', kilometers: 0, reistijd: 0 }, // reistijd is 120
         { id: 17, naam: 'Leeuwarden', kilometers: 0, reistijd: 0 }, // reistijd is 115
-
+*/
     ]);
 
     // Basisinfo zoals uurloon en kilometervergoeding
