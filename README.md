@@ -1,3 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae59a8fc-c10c-4d12-9d2f-fc13051322e4/deploy-status)](https://app.netlify.com/sites/kmtijd/deploys)
+
+#domain on kmtijd.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
