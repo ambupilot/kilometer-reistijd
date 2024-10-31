@@ -66,7 +66,7 @@ const WeekOverview = () => {
     const handleScreenshot = () => {
         if (tableRef.current) {
             html2canvas(tableRef.current, {
-                scale: 2, // Verhoog de resolutie van de afbeelding
+                scale: 3, // Verhoog de resolutie van de afbeelding
                 useCORS: true, // Toestemming voor externe CSS (zoals Tailwind)
                 logging: true,
             }).then((canvas) => {
@@ -82,7 +82,8 @@ const WeekOverview = () => {
 
     return (
         <div className="max-w-xl mx-auto p-5 bg-white rounded-lg shadow-md">
-            <h1 className="text-2xl font-bold text-center mb-6">Weekoverzicht</h1>
+            <h1 className="text-2xl font-bold text-center mb-2">Weekoverzicht</h1>
+            <h2 className="text-xl font-bold text-center mb-6">M. Kerssing</h2>
 
             {/* Dropdown om de week te kiezen */}
             <div className="flex justify-center mb-6">
