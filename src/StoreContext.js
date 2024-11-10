@@ -9,6 +9,7 @@ export const StoreProvider = ({ children }) => {
         /*
         // Dit zijn de werkelijke en actuele tijden
         */
+       /*
         { id: 1, naam: 'Nijmegen', kilometers: 7, reistijd: 20 }, // reistijd is 20
         { id: 2, naam: 'Venlo', kilometers: 60, reistijd: 55 }, // reistijd is 55
         { id: 3, naam: 'Roermond', kilometers: 87, reistijd: 60 }, // reistijd is 60
@@ -26,7 +27,7 @@ export const StoreProvider = ({ children }) => {
         { id: 15, naam: 'Marienberg', kilometers: 135, reistijd: 93 }, // reistijd is 93
         { id: 16, naam: 'Groningen', kilometers: 200, reistijd: 120 }, // reistijd is 120
         { id: 17, naam: 'Leeuwarden', kilometers: 193, reistijd: 115 }, // reistijd is 115
-          /*  
+          /* */ 
         // Dit zijn de tijden en afstanden tot 31-12-2024
         { id: 1, naam: 'Nijmegen', kilometers: 0, reistijd: 0 }, // reistijd is 20
         { id: 2, naam: 'Venlo', kilometers: 0, reistijd: 0 }, // reistijd is 55
@@ -45,7 +46,7 @@ export const StoreProvider = ({ children }) => {
         { id: 15, naam: 'Marienberg', kilometers: 0, reistijd: 0 }, // reistijd is 93
         { id: 16, naam: 'Groningen', kilometers: 0, reistijd: 0 }, // reistijd is 120
         { id: 17, naam: 'Leeuwarden', kilometers: 0, reistijd: 0 }, // reistijd is 115
-*/
+
     ]);
 
     // Basisinfo zoals uurloon en kilometervergoeding
