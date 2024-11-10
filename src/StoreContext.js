@@ -5,7 +5,7 @@ const StoreContext = createContext();
 
 export const StoreProvider = ({ children }) => {
     // Definieer standplaatsen en sorteer ze direct bij initialisatie
-    const [standplaatsen, setStandplaatsen] = useState(
+    const [standplaatsen] = useState(
         [
             { id: 1, naam: 'Nijmegen', kilometers: 0, reistijd: 0 },
             { id: 2, naam: 'Venlo', kilometers: 0, reistijd: 0 },
