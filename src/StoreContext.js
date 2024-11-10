@@ -5,7 +5,7 @@ const StoreContext = createContext();
 
 export const StoreProvider = ({ children }) => {
     // Definieer standplaatsen met reistijd en kilometers
-    const [standplaatsen] = useState([
+    const [standplaatsen, setStandplaatsen] = useState([
         /*
         // Dit zijn de werkelijke en actuele tijden
         */
