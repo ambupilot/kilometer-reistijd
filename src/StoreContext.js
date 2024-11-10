@@ -1,5 +1,5 @@
 // StoreContext.js
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const StoreContext = createContext();
 
@@ -54,6 +54,15 @@ export const StoreProvider = ({ children }) => {
         uurloon: 55,
         kilometervergoeding: 0.25,
     });
+
+    useEffect(() => {
+        // Sorteer de array op basis van het 'naam' attribuut in alfabetische volgorde
+        const sortedStandplaatsen = [...standplaatsen].sort((a, b) => 
+            a.naam.localeCompare(b.naam)
+        );
+    
+        setStandplaatsen(sortedStandplaatsen);
+    }, []); // Lege afhankelijkheden-array zorgt ervoor dat dit alleen bij de eerste render gebeurt
 
     return (
         <StoreContext.Provider value={{ standplaatsen, basisinfo }}>
